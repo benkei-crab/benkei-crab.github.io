@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+title:  "Music Player 1"
 date:   2021-06-12 12:16:00 +0900
-categories: jekyll update
+categories: Scratch Music
 ---
 
 # Key-Changeable Music Player
