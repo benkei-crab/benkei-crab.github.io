@@ -4,14 +4,14 @@ date:   2021-06-12 12:16:00 +0900
 categories: Scratch Music
 ---
 
-# Key-Changeable Music Player
+# Music Player
 
 ## はじめに
 ここではScratchで曲を演奏するプログラムを作ります。メロディーだけを演奏するプログラムから始めて、伴奏を付けたり、調を変えたりできるように追加、改良して行こうと思います。さらに、曲を選んで演奏できるようにしてみましょう。どうぞお付き合いください。
 
 曲は、(ほぼ)誰もが知っているであろう「きらきら星」を例に作ります。もしあなたのお気に入りの曲が別にあればそれを代わりに使ってください。以下に「きらきら星」の楽譜をしめします(MuseScore 3というソフトウェアで書きました。無料でダウンロードして使えるので興味があったら試してみてください)。
 
-<img src="../assets/images/twinkle01.png" alt="Score_for_twinkle_twinkle_little_star" width="800" height="640">
+<img src="/assets/images/twinkle01.png" alt="Score_for_twinkle_twinkle_little_star" width="800" height="640">
 
 ### 逐次処理
 上に示した「きらきら星」の楽譜は、音の高さ、音の長さを持つ音符を左から順番に演奏することを指示する「プログラム」と言えます(通常このプログラムを解釈するのは計算機ではなく人間ですが)。こうしたプログラムを逐次処理(serial processing)プログラムと呼びます。
