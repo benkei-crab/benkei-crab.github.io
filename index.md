@@ -1,17 +1,10 @@
+---
+title: Scratch from scratch
+---
 
-# Scratchでプログラミングを楽しもう!
+# Scratchプログラミングでモノゴトの理解を深めよう!
 こんにちは。benkei-crabです。
-本ページでは簡単なプログラムを作りながらScratchを紹介します。主に、「音楽」や「ペン」拡張機能を使ったプログラムを予定しています。ご興味ある方はお付き合いください。
-
-
+本ページではScratchで「作品」を作ることでよくしらないモノゴトを理解することを目指します。音楽やタートルグラフィックスに偏りそうですが、ご興味ある方はお付き合いください。
 
 私のScratch作品は[こちら](https://scratch.mit.edu/users/benkei_crab/)
 
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
