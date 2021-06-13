@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-
-<title>Scratch ブロック on HTML</title>
+---
+title: scratchblock-test
+---
 
 <script src="https://scratchblocks.github.io/js/scratchblocks-v3.5.2-min.js"></script>
 <script src="https://scratchblocks.github.io/js/translations-v3.5.2-min.js"></script>
 
-<h1>Scratch ブロック on HTML test</h1>
+# Scratch ブロック on HTML test
 
-<h2>pre tagを使う方法</h2>
-<p>scratchblocks.renderMatching() を使用して、CSSセレクタで指定した要素をまとめて描画します。</p>
+## pre tagを使う方法
+scratchblocks.renderMatching() を使用して、CSSセレクタで指定した要素をまとめて描画
+
 <pre id="blocks1" class="blocks">
   @greenFlag がクリックされたとき
   x座標を (0) 、y座標を (0) にする
@@ -30,11 +30,13 @@
   end
 </pre>
 
-<h2>インラインで描画</h2>
-<p>scratchblocks.renderMatching() の第2引数 option に inline: true を指定すると、<code class=b>スタンプ</code>のようにインラインでブロックを描画できます。</p>
+## インラインで描画
+scratchblocks.renderMatching() の第2引数 option に inline: true を指定すると、<code class=b>スタンプ</code>のようにインラインでブロックを描画できます。
 
-<h2>サイズを拡大して描画</h2>
-<p>描画されたSVGを拡大して表示します。</p>
+## サイズを拡大して描画
+
+描画されたSVGを拡大して表示
+
 <code id="big_blocks">
   @greenFlag が押されたとき
   x座標を (0) 、y座標を (0) にする
