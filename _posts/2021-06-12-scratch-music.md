@@ -23,7 +23,7 @@ Scratchでは、スプライト(初期画面ではネコの画像のアレです
 ここでは音を鳴らすブロックを繋げて順番に実行させることで曲を演奏するプログラムを作ってみましょう。以下のように一緒に作ってみてください。
 
 <script src="https://scratchblocks.github.io/js/scratchblocks-v3.5.2-min.js"></script>
-<script src="https://scratchblocks.github.io/js/translations-v3.5.2-min.js"></script>
+<script src="https://scratchblocks.github.io/js/translations-all-v3.5.2.js" charset="utf8"></script>
 <script>
 // 'pre.blocks' セレクタで指定された要素をまとめて描画
 scratchblocks.renderMatching('pre.blocks', {
