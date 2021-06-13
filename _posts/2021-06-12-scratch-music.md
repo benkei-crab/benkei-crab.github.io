@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2021-06-12 12:16:00 +0900
+categories: jekyll update
+---
+
 # Key-Changeable Music Player
 
 ## はじめに
@@ -5,7 +12,7 @@
 
 曲は、(ほぼ)誰もが知っているであろう「きらきら星」を例に作ります。もしあなたのお気に入りの曲が別にあればそれを代わりに使ってください。以下に「きらきら星」の楽譜をしめします(MuseScore 3というソフトウェアで書きました。無料でダウンロードして使えるので興味があったら試してみてください)。
 
-<img src="./img/twinkle01.png" alt="Score_for_twinkle_twinkle_little_star" width="800" height="640">
+<img src="../assets/images/twinkle01.png" alt="Score_for_twinkle_twinkle_little_star" width="800" height="640">
 
 ### 逐次処理
 上に示した「きらきら星」の楽譜は、音の高さ、音の長さを持つ音符を左から順番に演奏することを指示する「プログラム」と言えます(通常このプログラムを解釈するのは計算機ではなく人間ですが)。こうしたプログラムを逐次処理(serial processing)プログラムと呼びます。
@@ -15,6 +22,8 @@
 さて、話が先走り過ぎたので、逐次処理に話を戻します。
 Scratchでは、スプライト(初期画面ではネコの画像のアレです)という単位ごとにブロックを並べた順に命令が逐次処理されます。他の多くの言語で命令を並べた順に処理されるのと同じです。
 ここでは音を鳴らすブロックを繋げて順番に実行させることで曲を演奏するプログラムを作ってみましょう。以下のように一緒に作ってみてください。
+
+<script src="https://scratchblocks.github.io/js/scratchblocks-v3.1-min.js"></script>
 
 1. 音楽ブロックのロード
 音楽ブロックは拡張機能なので、まず音楽ブロックをロードする必要があります。
