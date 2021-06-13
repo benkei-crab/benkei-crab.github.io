@@ -5,8 +5,7 @@
 
 
 
-私のScratch作品は[こちら]
-(https://scratch.mit.edu/users/benkei_crab/)
+私のScratch作品は[こちら](https://scratch.mit.edu/users/benkei_crab/)
 
 
 <ul>
