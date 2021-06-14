@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Music Player 1"
 date:   2021-06-12 12:16:00 +0900
 categories: Scratch Music
